@@ -1,0 +1,2043 @@
+{
+  "passed": true,
+  "workbookSHA256": "e453815a756b8d5d96b0712c14883167b1cde18fcff93bdecf239f019faeb518",
+  "checks": [
+    {
+      "name": "Cached formula Model output!B5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!J5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!K5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!L5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!M5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!N5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!O5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!P5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!J6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!K6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!L6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!M6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!N6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!O6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!P6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!J7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!K7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!J8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!K8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!J9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!K9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!C16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!D16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!E16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!F16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!G16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!C17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!D17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!E17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!F17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!G17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!J17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!K17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!L17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!M17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!N17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!O17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!C18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!D18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!E18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!F18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!G18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!C19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!D19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!E19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!F19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!G19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!C20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!D20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!E20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!F20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!G20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!C21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!D21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!E21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!F21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!G21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!C22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!D22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!E22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!F22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!G22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B26",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B27",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B28",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B29",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Model output!B31",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!J25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!K25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Data!L25",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J13",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J14",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J15",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J16",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J17",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J18",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J19",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J20",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J21",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J23",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!A24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!B24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!C24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!D24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!E24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!F24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!G24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!H24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!I24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Cached formula Regression input!J24",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "24 raw and 23 usable observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sequential observation IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Only first observation has missing lags",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Quarter indicators and cold definition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Lag identities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Regression rows match raw observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All fitted values reproduce Excel",
+      "passed": true,
+      "detail": 5.968558980384842e-13
+    },
+    {
+      "name": "All residuals reproduce Excel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent OLS coefficients",
+      "passed": true,
+      "detail": 1.3642420526593924e-12
+    },
+    {
+      "name": "R squared",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Adjusted R squared",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Residual standard error",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Residual degrees of freedom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sums of squares",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F statistic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Independent coefficient standard errors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "t statistics",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Confidence interval symmetry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "advertising two-quarter effect",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "advertising break-even margin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "promotion two-quarter effect",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "promotion break-even margin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Quarter 23 and 24 fitted decision references",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Workbook unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "maxFittedDiscrepancy": 5.968558980384842e-13,
+  "formulaCellsValidated": 383
+}

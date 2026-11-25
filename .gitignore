@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.tools/
+test-results/
+*.tsbuildinfo
+
+# Unrelated local documents and read-only source workbook are not published.
+/Resume/
+*.xlsx
