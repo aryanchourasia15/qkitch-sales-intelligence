@@ -1,4 +1,24 @@
-# QKitch — Sales, connected.
+# QKitch — Draft
+
+## Presentation draft
+
+The display name and browser title are QKitch — Draft. The existing repository name, GitHub Pages address, relative asset configuration and deployment workflow are unchanged. The presentation update uses the same validated model and the existing GitHub Pages deployment workflow.
+
+The guided chapter sequence targets **6:30**:
+
+| Time | Chapter | Presentation focus |
+|---|---|---|
+| 0:00–0:45 | Business Question | Read the research question and distinguish historical evidence from causal proof. |
+| 0:45–2:15 | Sales Network | Inspect current promotion and lagged advertising; hover a quarter to connect it across clusters. Explain b as a conditional coefficient and β* as the comparable line-width scale. |
+| 2:15–3:30 | Model Validation | Show actual versus fitted sales, R², adjusted R² and residual standard error. State that the model has not been validated on unseen quarters. Open residual detail only if asked. |
+| 3:30–5:15 | Decision Simulator | Use Presentation mode. Reset Q24, increase promotion from 11.4 to 21.4 ($k), and describe the modeled difference while the four background inputs remain fixed. Reset before exploring advertising. Keep the separate two-quarter interpretation distinct from the current-quarter scenario. |
+| 5:15–6:30 | Strategic Insights | Connect advertising persistence, promotion timing and margin thresholds to controlled tests and actual margin/cost evidence. Close without claiming an optimal budget or proven incremental ROI. |
+
+Fullscreen defaults the simulator to **Presentation mode**, with only current promotion and advertising controls. Prior promotion 42.3, prior advertising 36, market index 114 and cold 1 are fixed at Q24. Predictions still use the original full-precision engine. **Advanced mode** retains all six inputs, contribution breakdowns, warnings and sources; changing modes retains advanced assumptions until an explicit baseline reset. Technical residuals and historical details remain available through an inspection control during fullscreen.
+
+Keyboard chapters: Left/Right, Page Up/Page Down, or 1–5. F toggles fullscreen; Escape exits. Form controls retain their normal key behavior. Manual pause and system reduced-motion preferences remain supported. Suggested timings are a presenter guide, not an automatic timer.
+
+For the validated source workbook (excluded from the public repository), extraction checks can be rerun against the original local workbook without copying it into Git. The original file is read-only throughout extraction.
 
 An interactive sales intelligence presentation with a luminous D3 particle network, historical model validation and a transparent marketing scenario simulator. React, TypeScript, Vite, Tailwind CSS and Recharts. All calculations run in the browser; fonts and model data are bundled locally. No backend or API keys are required.
 

@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 import math
+import os
 from playwright.sync_api import sync_playwright, expect
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -9,6 +10,7 @@ OUT = ROOT/'test-results'
 OUT.mkdir(exist_ok=True)
 SOURCE = json.loads((ROOT/'src/data/qkitch.json').read_text(encoding='utf-8'))
 checks = []
+PREVIEW = os.environ.get('QKITCH_PREVIEW_URL', 'http://127.0.0.1:5175/')
 
 
 def record(name, condition=True):
@@ -23,7 +25,7 @@ def no_overflow(page, name):
 
 def chapter(page, name):
     page.get_by_role('navigation', name='Chapters').get_by_role('button', name=name).click()
-    heading = {'Sales Network':'Sales, connected.', 'Model Validation':'A close fit.', 'Decision Simulator':'Explore the possibilities.'}[name]
+    heading = {'Business Question':'Sales, connected.', 'Sales Network':'Sales, connected.', 'Model Validation':'A close fit.', 'Decision Simulator':'Explore the possibilities.', 'Strategic Insights':'Evidence into better questions.'}[name]
     expect(page.get_by_role('heading', name=heading, exact=name!='Model Validation')).to_be_visible()
 
 
@@ -34,9 +36,14 @@ with sync_playwright() as p:
     errors = []
     page.on('pageerror', lambda e: errors.append(str(e)))
     page.on('console', lambda m: errors.append(m.text) if m.type == 'error' else None)
-    response = page.goto('http://127.0.0.1:5173/', wait_until='networkidle')
+    response = page.goto(PREVIEW, wait_until='networkidle')
     record('Local preview responds HTTP 200', response.status == 200)
     expect(page.get_by_role('heading', name='Sales, connected.')).to_be_visible()
+    expect(page).to_have_title('QKitch — Draft')
+    expect(page.locator('.research-question')).to_have_text('How can QKitch use historical marketing spending and market conditions to better understand sales and evaluate future decisions?')
+    record('Draft name, exact business question and opening chapter are visible')
+    page.screenshot(path=str(OUT/'business-question-desktop.png'),full_page=True)
+    chapter(page,'Sales Network')
     page.get_by_role('button', name='Pause motion', exact=True).click()
     record('Motion can be paused')
     no_overflow(page, 'Desktop network has no horizontal overflow')
@@ -121,6 +128,33 @@ with sync_playwright() as p:
     expect(page.get_by_text('18.55%', exact=True)).to_be_visible()
     expect(page.get_by_text('32.77%', exact=True)).to_be_visible()
     record('Workbook break-even thresholds are displayed')
+    page.get_by_role('spinbutton',name='Prior-quarter promotion',exact=True).fill('0')
+    page.get_by_role('spinbutton',name='Prior-quarter promotion',exact=True).press('Tab')
+    page.get_by_role('spinbutton',name='Market index',exact=True).fill('100')
+    page.get_by_role('spinbutton',name='Market index',exact=True).press('Tab')
+    advanced_prediction=float(result.get_attribute('data-value'))
+    page.get_by_role('button',name='Presentation mode',exact=True).click()
+    expect(page.locator('.scenario-controls input[type="number"]')).to_have_count(2)
+    expect(page.get_by_test_id('scenario-result')).to_have_attribute('data-prom-lag1','42.3')
+    expect(page.get_by_test_id('scenario-result')).to_have_attribute('data-adv-lag1','36')
+    expect(page.get_by_test_id('scenario-result')).to_have_attribute('data-index','114')
+    expect(page.get_by_test_id('scenario-result')).to_have_attribute('data-cold','1')
+    record('Presentation mode exposes only two controls and locks all background inputs at Q24',math.isclose(float(result.get_attribute('data-value')),386.231693806404,abs_tol=1e-9))
+    page.get_by_role('spinbutton',name='Current promotion',exact=True).fill('21.4')
+    page.get_by_role('spinbutton',name='Current promotion',exact=True).press('Tab')
+    record('Simplified simulator matches the original full-precision engine',math.isclose(float(result.get_attribute('data-value')),386.231693806404+10*b[1]['coefficient'],abs_tol=1e-9))
+    page.screenshot(path=str(OUT/'simulator-presentation-desktop.png'),full_page=True)
+    page.get_by_role('button',name='Advanced mode',exact=True).click()
+    expect(page.get_by_role('spinbutton',name='Prior-quarter promotion',exact=True)).to_have_value('0')
+    expect(page.get_by_role('spinbutton',name='Market index',exact=True)).to_have_value('100')
+    record('Advanced mode retains six inputs and previous historical assumptions',math.isclose(float(result.get_attribute('data-value')),advanced_prediction+10*b[1]['coefficient'],abs_tol=1e-9))
+    page.get_by_role('button',name='Reset to Q24',exact=True).click()
+    chapter(page,'Strategic Insights')
+    expect(page.get_by_text('18.55%',exact=True)).to_be_visible()
+    expect(page.get_by_text('32.77%',exact=True)).to_be_visible()
+    expect(page.get_by_role('heading',name='Next analytical step',exact=True)).to_have_count(3)
+    page.screenshot(path=str(OUT/'strategic-insights-desktop.png'),full_page=True)
+    record('Closing insights use workbook evidence and three explicit next analytical steps')
 
     page.get_by_role('button', name='Model & sources', exact=True).click()
     expect(page.get_by_role('dialog')).to_be_visible()
@@ -135,10 +169,18 @@ with sync_playwright() as p:
     expect(page.locator('.presentation-dock')).to_be_visible()
     record('Presentation mode enters fullscreen', page.evaluate('!!document.fullscreenElement'))
     page.locator('.presentation-dock').get_by_role('button', name='Next', exact=True).click()
-    expect(page.locator('.presentation-dock')).to_contain_text('2 / 3')
+    expect(page.locator('.presentation-dock')).to_contain_text('3 / 5')
+    page.get_by_role('button',name='Inspect residuals and technical detail',exact=True).click()
+    expect(page.get_by_role('button',name='Vs fitted',exact=True)).to_be_visible()
+    expect(page.get_by_text('Historical observations & complete fit statistics',exact=True)).to_be_visible()
+    page.get_by_role('button',name='Hide residuals and technical detail',exact=True).click()
+    record('Fullscreen validation retains optional residual and historical diagnostics')
     page.mouse.click(100, 160)
     page.keyboard.press('ArrowRight')
-    expect(page.locator('.presentation-dock')).to_contain_text('3 / 3')
+    expect(page.locator('.presentation-dock')).to_contain_text('4 / 5')
+    expect(page.get_by_role('button',name='Presentation mode',exact=True)).to_have_attribute('aria-pressed','true')
+    expect(page.locator('.scenario-controls input[type="number"]')).to_have_count(2)
+    record('Fullscreen defaults to simplified simulator')
     record('Presentation supports dock and keyboard chapter navigation')
     page.screenshot(path=str(OUT/'presentation-desktop.png'), full_page=True)
     page.get_by_role('button', name='Exit presentation', exact=True).click()
@@ -149,9 +191,11 @@ with sync_playwright() as p:
     mp=mobile.new_page()
     mp.on('pageerror',lambda e:errors.append(str(e)))
     mp.on('console',lambda m: errors.append(m.text) if m.type == 'error' else None)
-    mp.goto('http://127.0.0.1:5173/',wait_until='networkidle')
+    mp.goto(PREVIEW,wait_until='networkidle')
     expect(mp.get_by_role('button',name='Reduced motion',exact=True)).to_be_disabled()
     record('System reduced-motion preference is honored')
+    mp.screenshot(path=str(OUT/'business-question-mobile.png'),full_page=True)
+    chapter(mp,'Sales Network')
     expect(mp.locator('.network-overlay')).to_have_attribute('viewBox','0 0 560 720')
     record('Mobile network uses a dedicated readable compact layout')
     record('Mobile cluster labels fit above the interaction footer',mp.evaluate('''()=>{
@@ -160,17 +204,20 @@ with sync_playwright() as p:
       const instructions=document.querySelector('.network-instruction').getBoundingClientRect();
       return labels.every(r=>r.left>=0&&r.right<=document.documentElement.clientWidth&&r.bottom<Math.min(controls.top,instructions.top));
     }'''))
-    for name,slug in [('Sales Network','network'),('Model Validation','validation'),('Decision Simulator','simulator')]:
+    for name,slug in [('Sales Network','network'),('Model Validation','validation'),('Decision Simulator','simulator'),('Strategic Insights','strategic-insights')]:
         chapter(mp,name)
         mp.wait_for_timeout(250)
         no_overflow(mp,f'Mobile {name} has no horizontal overflow')
         mp.screenshot(path=str(OUT/f'{slug}-mobile.png'),full_page=True)
+    chapter(mp,'Decision Simulator')
     mp.get_by_role('spinbutton',name='Current advertising',exact=True).fill('40')
     mp.get_by_role('spinbutton',name='Current advertising',exact=True).press('Tab')
     record('Mobile simulator calculates current advertising change',math.isclose(float(mp.get_by_test_id('scenario-sales').get_attribute('data-value')),386.231693806404+b[2]['coefficient'],abs_tol=1e-9))
+    mp.get_by_role('button',name='Presentation mode',exact=True).click()
+    mp.screenshot(path=str(OUT/'simulator-presentation-mobile.png'),full_page=True)
     for width in [360,768,1024,1920]:
         page.set_viewport_size({'width':width,'height':1000})
-        for name in ['Sales Network','Model Validation','Decision Simulator']:
+        for name in ['Business Question','Sales Network','Model Validation','Decision Simulator','Strategic Insights']:
             chapter(page,name)
             no_overflow(page,f'{width}px {name} has no horizontal overflow')
     page.set_viewport_size({'width':1440,'height':900})
@@ -178,7 +225,19 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Present',exact=True).click()
     record('1440x900 fullscreen network legend and linked quarter fit above the dock',page.evaluate('document.querySelector(".network-footnotes").getBoundingClientRect().bottom < document.querySelector(".presentation-dock").getBoundingClientRect().top'))
     page.screenshot(path=str(OUT/'presentation-network-refined.png'),full_page=True)
+    for name,slug in [('Business Question','question'),('Model Validation','validation'),('Decision Simulator','simulator'),('Strategic Insights','insights')]:
+        chapter(page,name)
+        page.evaluate('document.fonts.ready')
+        record(f'1440x900 fullscreen {name} core content fits above the chapter dock',page.evaluate('document.querySelector(".chapter-transition").getBoundingClientRect().bottom < document.querySelector(".presentation-dock").getBoundingClientRect().top'))
+        page.screenshot(path=str(OUT/f'draft-fullscreen-{slug}.png'),full_page=True)
+    page.mouse.click(100,160)
+    page.keyboard.press('1')
+    expect(page.locator('.presentation-dock')).to_contain_text('1 / 5')
+    page.keyboard.press('5')
+    expect(page.locator('.presentation-dock')).to_contain_text('5 / 5')
+    record('Keyboard chapter shortcuts cover the complete five-chapter story')
     page.get_by_role('button',name='Exit presentation',exact=True).click()
+    chapter(page,'Sales Network')
     page.get_by_role('button',name='Resume motion',exact=True).click()
     frame_times = page.evaluate('''() => new Promise(resolve => {
       const samples=[];let previous=0;

@@ -3,6 +3,7 @@ import { data, format, intercept, meta, pValue, predictors, signed } from '../li
 import type { Predictor } from '../types/model';
 import Network from '../components/Network';
 import QuarterExplorer from '../components/QuarterExplorer';
+import { researchQuestion } from '../lib/presentation';
 
 export default function SalesNetwork({ quarter, onQuarter, reduced, onSimulate }: { quarter: number; onQuarter: (q: number) => void; reduced: boolean; onSimulate: () => void }) {
   const [selected, setSelected] = useState<Predictor>('prom');
@@ -11,7 +12,7 @@ export default function SalesNetwork({ quarter, onQuarter, reduced, onSimulate }
   const details = meta[selected];
   return <>
     <div className="chapter-heading network-heading">
-      <div><p className="eyebrow cyan">THE SALES NETWORK</p><h1>Sales, <span className="serif-word">connected.</span></h1><p className="chapter-deck">How do marketing spending, past decisions and market conditions relate to sales?</p></div>
+      <div><p className="eyebrow cyan">THE SALES NETWORK</p><h1>Sales, <span className="serif-word">connected.</span></h1><p className="chapter-deck">{researchQuestion}</p></div>
       <div className="heading-note"><span className="small-line" /><span>A statistical lens on<br />QKitch’s growth decisions.</span></div>
     </div>
     <div className="network-layout">

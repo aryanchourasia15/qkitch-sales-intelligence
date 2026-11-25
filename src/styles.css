@@ -94,3 +94,78 @@
   .network-topline { letter-spacing: .1em; }
   .network-simulator-link { font-size: .72rem; margin-top: 8px; }
 }
+
+/* Draft presentation: five chapters, an opening question, and two simulator views. */
+.brand-draft{color:#9cacc2;font-weight:400;font-size:.95rem}
+.app-header nav{gap:20px}.app-header nav button{font-size:.77rem}
+.presentation-route{display:flex;justify-content:space-between;gap:16px;margin:-15px 0 28px;font-size:.7rem;color:#6e859f;letter-spacing:.025em}
+.primary-action{display:inline-flex;align-items:center;justify-content:center;border:1px solid #61e4f055;border-radius:4px;background:#61e4f00a;color:#b4f4fb;padding:12px 18px;font-size:.85rem}
+.primary-action:hover{background:#61e4f017;border-color:#61e4f099}
+.chapter-continue{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 0 8px;border-top:1px solid var(--line);margin-top:20px}
+.business-question{padding:12px 0 30px;max-width:1160px}
+.business-question>h1{margin:20px 0 24px;font-size:clamp(2.8rem,4.5vw,4.6rem)}
+.research-question{font-family:'Space Grotesk';font-size:clamp(1.65rem,2.4vw,2.4rem);line-height:1.4;letter-spacing:-.035em;max-width:1070px;color:#e4effa}
+.question-context{font-size:.95rem;color:#95a9c3;max-width:830px;margin-top:20px}
+.question-evidence{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin:32px 0;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.question-evidence>div{display:flex;flex-direction:column;gap:5px}.question-evidence strong{font-family:'Space Grotesk';font-size:2.5rem;letter-spacing:-.06em;color:var(--cyan)}
+.question-evidence span{font-size:.8rem;color:#98abc3}
+.story-preview{display:grid;grid-template-columns:repeat(3,1fr);gap:35px}.story-preview p{font-size:.85rem;color:#9aabc2}.story-preview span{display:block;color:#dceafa;font-size:1rem;font-family:'Space Grotesk';margin-bottom:5px}
+.question-action{display:flex;align-items:center;gap:25px;margin:30px 0 16px}.question-action>span{font-size:.75rem;color:#8a9fb9;max-width:460px}
+.simulator-mode-bar{display:flex;gap:20px;align-items:center;margin:-10px 0 25px}.simulator-mode-bar p{font-size:.75rem;color:#8fa4be}.simulator-mode-bar .segmented button{font-size:.75rem;padding:9px 14px}
+.fixed-context{font-size:.78rem;color:#a1b4cc;line-height:1.75;margin:18px 0;padding:14px 16px;border-left:2px solid #61e4f044;background:#61e4f005}
+.fixed-context strong,.fixed-context span{display:block}.fixed-context strong{font-size:.8rem;color:#d9eafa;margin-bottom:5px}.fixed-context span{font-size:.7rem;color:#829ab6;margin-top:6px}
+.current-effects h3{font-size:.95rem;margin-bottom:10px}.current-effects p{font-size:.8rem;color:#9eafc5;margin:8px 0;line-height:1.7}.current-effects strong{color:#d3e6f6}.current-effects .source-ref{font-size:.65rem}
+.two-quarter-caveat{font-size:.75rem;line-height:1.75;color:#95a6be;margin:8px 0 14px;max-width:1100px}.simulator-conclude{padding:15px 0 4px;text-align:right}
+.simple-simulator .decision-effects .method-detail{margin-top:12px}
+.insight-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;padding:12px 0 25px}
+.insight-columns article+article{padding-left:30px;border-left:1px solid var(--line)}
+.insight-columns h2{font-size:1.5rem;margin:12px 0 20px}.insight-columns p{font-size:.85rem;color:#a4b6cd;line-height:1.8}.insight-columns h3{font-size:.82rem;color:#d6e5f5;margin:18px 0 5px}.insight-columns .source-ref{font-size:.65rem;margin-top:18px;color:#6f87a6}
+.insight-columns .insight-evidence{padding:12px 0 16px;margin-bottom:12px;border-bottom:1px solid var(--line);font-size:.9rem;line-height:1.9}.insight-evidence strong{color:#dfedfa}
+.margin-thresholds{display:flex;gap:24px;padding-bottom:18px;border-bottom:1px solid var(--line);margin-bottom:16px}.margin-thresholds strong{display:block;font-size:1.9rem;font-family:'Space Grotesk';color:var(--emerald);letter-spacing:-.05em}.margin-thresholds span{display:block;font-size:.7rem;line-height:1.6}
+.insight-assumptions{border-top:1px solid var(--line);padding:18px 0;color:#8fa5c0;display:flex;gap:25px;font-size:.75rem}.insight-assumptions strong{color:#c7daed;white-space:nowrap}.insight-assumptions p{line-height:1.75}
+.insight-close{padding:20px 0;border-top:1px solid var(--line)}.insight-close>p{font-family:'Space Grotesk';font-size:1.7rem;letter-spacing:-.04em}.insight-close>span{display:block;font-size:.8rem;color:#91a7c1;margin:9px 0 15px;max-width:950px}
+.validation-presentation-note{display:flex;align-items:center;gap:35px;border-top:1px solid var(--line);padding:18px 0}.validation-presentation-note p{font-size:.85rem;color:#9db1cc;max-width:850px}.validation-presentation-note strong{color:#d5e5f5}.validation-presentation-note button{white-space:nowrap;font-size:.75rem}
+.presentation-dock small{font-size:.6rem;color:#7d94b0;padding-left:10px}.presenting .presentation-route{display:none}
+.presenting .business-question{padding-top:6px}.presenting .business-question>h1{font-size:3.5rem;margin:12px 0 20px}.presenting .research-question{font-size:2rem}.presenting .question-evidence{margin:24px 0}.presenting .question-context{margin-top:15px}
+.presenting .validation-diagnostics .method-detail{display:block}
+.presenting .chapter-heading:not(.network-heading){margin-bottom:22px}.presenting .chapter-heading:not(.network-heading) h1{font-size:2.7rem}.presenting .fit-metrics{padding:18px 0;margin-bottom:25px}.presenting .fit-metrics strong{font-size:2rem}.presenting .sales-chart{height:240px}.presenting .chart-section{padding-bottom:12px}
+.presenting .simple-simulator .simulator-layout{gap:40px;grid-template-columns:1.25fr 1fr}.presenting .simple-simulator .simulator-mode-bar{margin:-8px 0 16px}
+.presenting .simple-simulator .scenario-controls>.section-heading{padding-bottom:9px}.presenting .simple-simulator .input-group{padding:12px 0 18px}.presenting .simple-simulator .input-pair{margin-top:16px}
+.presenting .simple-simulator .fixed-context{padding:9px 12px;margin:12px 0;font-size:.75rem;line-height:1.6}.presenting .simple-simulator .fixed-context span{font-size:.65rem;margin-top:4px}
+.presenting .simple-simulator .current-effects p{font-size:.75rem;line-height:1.6;margin:6px 0}.presenting .simple-simulator .current-effects h3{font-size:.85rem;margin-bottom:8px}.presenting .simple-simulator .current-effects .source-ref{font-size:.6rem}.presenting .simple-simulator .scenario-range-note{display:none}
+.presenting .simple-simulator .scenario-result{padding-left:30px}.presenting .simple-simulator .scenario-sales{font-size:3.6rem}.presenting .simple-simulator .baseline-definition{margin:18px 0;padding:14px 0}.presenting .simple-simulator .scenario-warning{margin-top:12px}
+.presenting .simple-simulator .decision-effects{margin-top:18px;padding-top:14px}.presenting .simple-simulator .decision-effects h2{font-size:1.15rem}.presenting .simple-simulator .decision-effects .eyebrow{font-size:.6rem;margin-bottom:3px}
+.presenting .simple-simulator .effect-columns{margin:12px 0 8px;gap:35px}.presenting .simple-simulator .effect-columns h3{font-size:.95rem;margin-bottom:8px}.presenting .simple-simulator .effect-numbers{margin-bottom:6px;gap:15px}.presenting .simple-simulator .effect-numbers strong{font-size:1.65rem}.presenting .simple-simulator .effect-numbers span{font-size:.65rem;line-height:1.5}.presenting .simple-simulator .effect-columns .small{font-size:.65rem}.presenting .simple-simulator .effect-columns .source-ref{font-size:.6rem;margin-top:3px}
+.presenting .simple-simulator .two-quarter-caveat{font-size:.65rem;margin:5px 0}.presenting .simple-simulator .simulator-conclude{padding-top:10px}
+.presenting .strategic-insights .insight-columns{gap:30px;padding-top:0}.presenting .strategic-insights .insight-columns h2{font-size:1.3rem;margin-bottom:14px}.presenting .strategic-insights .insight-columns p{font-size:.78rem;line-height:1.7}.presenting .strategic-insights .insight-columns h3{margin-top:13px}.presenting .strategic-insights .insight-columns .source-ref{font-size:.6rem}.presenting .strategic-insights .margin-thresholds strong{font-size:1.7rem}.presenting .strategic-insights .insight-assumptions{padding:12px 0;font-size:.7rem}.presenting .strategic-insights .insight-close{padding:15px 0}.presenting .strategic-insights .insight-close>p{font-size:1.5rem}
+@media(min-width:901px){.presenting .network-stage{height:clamp(330px,calc(100vh - 480px),620px)}}
+@media(max-width:1180px){.app-header{gap:16px}.app-header nav{gap:15px}.app-header nav button{font-size:.68rem}.brand{font-size:1.05rem}.brand-draft{font-size:.8rem}.chapter-index{display:none}.present-button{font-size:.7rem;padding:9px}.insight-columns{gap:25px}.insight-columns article+article{padding-left:20px}.margin-thresholds{gap:14px}.margin-thresholds strong{font-size:1.55rem}}
+@media(max-width:900px){.app-header{flex-wrap:wrap;min-height:115px;height:auto;padding-top:15px;gap:8px}.app-header nav{order:3;width:100%;height:43px;justify-content:space-between;gap:12px}.present-button{margin-left:auto}.insight-columns{gap:20px}.insight-columns h2{font-size:1.2rem}.insight-columns p{font-size:.78rem}.margin-thresholds{flex-direction:column;gap:12px}.presentation-route{margin-top:-7px}.presenting .app-header{height:auto;min-height:100px}.presenting .simple-simulator .input-pair{grid-template-columns:1fr 1fr}.presenting .simple-simulator .simulator-layout{gap:25px}.validation-presentation-note{display:block}.validation-presentation-note button{margin-top:12px}}
+@media(max-width:640px){.app-header nav{overflow-x:auto;justify-content:flex-start;gap:22px;scrollbar-width:thin}.app-header nav button{font-size:.72rem;flex-shrink:0}.app-header .brand{font-size:1.2rem}.brand-draft{font-size:.9rem}.presentation-route{font-size:.6rem;margin:0 0 24px}.presentation-route>span:last-child{text-align:right}.chapter-continue{align-items:flex-start}.chapter-continue .primary-action{font-size:.7rem;padding:10px 12px;max-width:200px}.business-question{padding-top:0}.business-question>h1{font-size:2.6rem;margin:16px 0 22px}.research-question{font-size:1.55rem;line-height:1.45}.question-context{font-size:.85rem}.question-evidence{gap:14px;margin:25px 0;padding:18px 0}.question-evidence strong{font-size:1.7rem}.question-evidence span{font-size:.65rem;line-height:1.6}.story-preview{grid-template-columns:1fr;gap:15px}.story-preview p{font-size:.8rem}.story-preview span{font-size:.9rem;margin-bottom:2px}.question-action{display:block;margin-top:25px}.question-action>span{display:block;font-size:.72rem;margin-top:15px}.primary-action{font-size:.8rem}.simulator-mode-bar{display:block;margin:0 0 22px}.simulator-mode-bar p{font-size:.7rem;margin-top:10px}.simulator-mode-bar .segmented{width:fit-content}.simulator-mode-bar .segmented button{font-size:.7rem;padding:9px 12px}.current-effects p{font-size:.78rem}.fixed-context{font-size:.72rem;padding:12px}.fixed-context span{font-size:.67rem}.two-quarter-caveat{font-size:.7rem}.insight-columns{grid-template-columns:1fr;gap:25px}.insight-columns article+article{border-left:0;border-top:1px solid var(--line);padding:25px 0 0}.insight-columns h2{font-size:1.5rem;margin:12px 0 15px}.insight-columns h2 br{display:none}.insight-columns p{font-size:.85rem}.insight-columns h3{font-size:.85rem}.margin-thresholds{flex-direction:row;gap:30px}.margin-thresholds strong{font-size:2rem}.insight-assumptions{display:block;font-size:.72rem}.insight-assumptions p{margin-top:8px}.insight-close>p{font-size:1.5rem}.insight-close>span{font-size:.75rem}.presenting .business-question>h1{font-size:2.5rem}.presenting .research-question{font-size:1.5rem}.presenting .chapter-heading:not(.network-heading) h1{font-size:2.25rem}.presenting .simple-simulator .simulator-layout{grid-template-columns:1fr;gap:25px}.presenting .simple-simulator .scenario-result{padding-left:0}.presenting .simple-simulator .effect-columns{grid-template-columns:1fr;gap:20px}.presenting .simple-simulator .effect-numbers strong{font-size:2rem}.presenting .simple-simulator .effect-numbers span{font-size:.7rem}.presenting .simple-simulator .effect-columns .small{font-size:.72rem}.presenting .simple-simulator .two-quarter-caveat{font-size:.7rem}.presenting .strategic-insights .insight-columns p{font-size:.85rem}.presenting .strategic-insights .insight-columns h2{font-size:1.5rem}.presenting .simple-simulator .fixed-context span{font-size:.7rem}.presenting .simple-simulator .current-effects p{font-size:.8rem}.presentation-dock small{display:none}.presenting .presentation-dock{gap:10px}.presenting .presentation-dock>span{font-size:.64rem}.presenting .fit-metrics strong{font-size:1.9rem}}
+
+@media(min-width:901px){
+ .presenting .network-heading .chapter-deck{max-width:1060px;font-size:.875rem;line-height:1.5}
+ .presenting .sales-chart{height:220px}
+ .presenting .validation-presentation-note{padding:14px 0}
+ .presenting .chapter-heading:not(.network-heading){margin-bottom:18px}
+ .presenting .simple-simulator .chapter-heading .chapter-deck{display:none}
+ .presenting .simple-simulator .input-group legend{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;float:none;margin:0;padding:0}
+ .presenting .simple-simulator .input-group>p{display:none}
+ .presenting .simple-simulator .range-control{margin-top:12px;margin-bottom:8px}
+ .presenting .simple-simulator .input-group{padding:8px 0 14px}
+ .presenting .simple-simulator .input-pair{margin-top:12px}
+ .presenting .simple-simulator .baseline-definition>p:first-of-type{display:none}
+ .presenting .simple-simulator .scenario-result>p.muted{display:none}
+ .presenting .simple-simulator .simulator-conclude{display:none}
+ .presenting .simple-simulator .decision-effects .effect-columns{margin-top:10px}
+ .presenting .strategic-insights .insight-close{padding-bottom:5px}
+}
+
+@media(min-width:901px){
+ .presenting .simple-simulator .fixed-context{padding-top:7px;padding-bottom:7px;margin-top:8px;margin-bottom:8px}
+ .presenting .simple-simulator .input-pair{margin-top:8px}
+ .presenting .simple-simulator .current-effects h3{margin-bottom:6px}
+ .presenting .simple-simulator .decision-effects{margin-top:14px;padding-top:12px}
+ .presenting .strategic-insights .insight-close .text-button{display:none}
+ .presenting .strategic-insights .insight-close>span{margin-bottom:10px}
+}
